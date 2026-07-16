@@ -35,7 +35,7 @@ Dataset Integration
         ↓
 Final Employee Database
 
-Skills Demonstrated
+## Skills Demonstrated
 - ETL pipeline design
 - Data cleaning
 - Data transformation
@@ -44,14 +44,12 @@ Skills Demonstrated
 - Multi-source data processing
 
 ## Technologies
-
-Python
-Pandas
-Excel
-CSV
-JSON
-Data Cleaning
-ETL
-Data Integration
-Jupyter Notebook
-    
+- Python
+- Pandas
+- Excel
+- CSV
+- JSON
+- Data Cleaning
+- ETL
+- Data Integration
+- Jupyter Notebook
