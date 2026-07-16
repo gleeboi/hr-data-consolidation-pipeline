@@ -1,89 +1,57 @@
 # HR Data Consolidation Pipeline
 
-## Overview
-
-Organizations often store employee information across multiple systems and file formats, creating challenges for reporting and analysis.
-
-This project demonstrates how fragmented HR data can be cleaned, transformed, and integrated into a structured employee master dataset.
-
-Using Python and Pandas, I developed a data consolidation pipeline that combines employee information, emergency contacts, job roles, salaries, and office locations into a unified dataset.
-
----
+# README Overview
 
 ## Business Problem
+Employee information was distributed across multiple disconnected systems and file formats, making reporting and analysis inefficient. The objective was to build a centralized employee database by cleaning, standardizing, and integrating data from multiple sources.
 
-A growing organization had employee information distributed across multiple files and formats.
+## Objective
+- Load HR datasets from different formats.
+- Clean and standardize employee records.
+- Merge multiple datasets.
+- Produce a unified employee master dataset.
 
-The objective was to create a reliable employee database by:
-
-- Cleaning inconsistent records
-- Standardizing data structures
-- Combining multiple sources
-- Producing an analysis-ready dataset
-
----
-
-## Data Sources
-
-| Dataset | Format | Purpose |
-|---|---|---|
-| Employee Information | Excel | Employee details and demographics |
-| Emergency Contacts | Excel | Emergency information |
-| Employee Roles | JSON | Roles, departments, salaries |
-| Office Addresses | CSV | Office location details |
-
----
-
-## Data Workflow
+## Workflow
 
 Raw HR Files
+(Excel | CSV | JSON)
 
-  ↓
-
+        ↓
 Data Loading
+(Pandas)
 
-  ↓
-
+        ↓
 Data Cleaning
+(Missing values, formatting)
 
-  ↓
-
+        ↓
 Schema Standardization
+(Column consistency)
 
-  ↓
-
+        ↓
 Dataset Integration
+(Merging employee records)
 
-  ↓
-
+        ↓
 Final Employee Database
 
----
-
-## Technical Skills Demonstrated
-
-- Python data manipulation
-- Pandas DataFrames
-- Reading Excel, CSV, and JSON files
-- Missing value handling
-- Column transformation
-- Dataset merging
-- ETL workflow design
-
----
+Skills Demonstrated
+- ETL pipeline design
+- Data cleaning
+- Data transformation
+- Data integration
+- DataFrame manipulation
+- Multi-source data processing
 
 ## Technologies
 
-Python  
-Pandas  
-Excel  
-CSV  
-JSON  
+Python
+Pandas
+Excel
+CSV
+JSON
+Data Cleaning
+ETL
+Data Integration
 Jupyter Notebook
-
----
-
-## Final Output
-
-Created a consolidated employee dataset ready for analytics and reporting.
     
