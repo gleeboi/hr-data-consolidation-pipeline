@@ -36,12 +36,27 @@ The objective was to create a reliable employee database by:
 
 ## Data Workflow
 
-flowchart TD
-    A[Raw HR Data Sources<br/>Excel | CSV | JSON] --> B[Data Loading<br/>Pandas]
-    B --> C[Data Cleaning<br/>Missing values, formatting, duplicates]
-    C --> D[Schema Standardization<br/>Column consistency]
-    D --> E[Dataset Integration<br/>Merge employee datasets]
-    E --> F[Final Employee Database<br/>Analysis-ready dataset]
+Raw HR Files
+
+  ↓
+
+Data Loading
+
+  ↓
+
+Data Cleaning
+
+  ↓
+
+Schema Standardization
+
+  ↓
+
+Dataset Integration
+
+  ↓
+
+Final Employee Database
 
 ---
 
