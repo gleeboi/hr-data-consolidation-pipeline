@@ -35,3 +35,9 @@ The objective was to create a reliable employee database by:
 ---
 
 ## Data Workflow
+RAW HR Files
+  ↓
+  Data Loading
+    ↓
+    Data Cleaning
+    
