@@ -34,27 +34,41 @@ The objective was to create a reliable employee database by:
 
 ---
 
-</> 
 ## Data Workflow
 
-Raw HR Files
+flowchart TD
+    A[Raw HR Data Sources<br/>Excel | CSV | JSON] --> B[Data Loading<br/>Pandas]
+    B --> C[Data Cleaning<br/>Missing values, formatting, duplicates]
+    C --> D[Schema Standardization<br/>Column consistency]
+    D --> E[Dataset Integration<br/>Merge employee datasets]
+    E --> F[Final Employee Database<br/>Analysis-ready dataset]
 
-  ↓
+---
 
-Data Loading
+## Technical Skills Demonstrated
 
-  ↓
+- Python data manipulation
+- Pandas DataFrames
+- Reading Excel, CSV, and JSON files
+- Missing value handling
+- Column transformation
+- Dataset merging
+- ETL workflow design
 
-Data Cleaning
+---
 
-  ↓
+## Technologies
 
-Schema Standardization
+Python  
+Pandas  
+Excel  
+CSV  
+JSON  
+Jupyter Notebook
 
-  ↓
+---
 
-Dataset Integration
+## Final Output
 
-  ↓
-
-Final Employee Database
+Created a consolidated employee dataset ready for analytics and reporting.
+    
